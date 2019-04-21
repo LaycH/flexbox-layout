@@ -109,11 +109,10 @@ body {
   color: #fff;
 }
 
-header,
-footer {
-  background-color: #222;
-  height: 80px;
-  width: 100%;
+header,footer {
+    background-color: #222;
+    height: 80px;
+    width: 100%;
 }
 
 main {
@@ -122,41 +121,29 @@ main {
   width: 100%;
 }
 
-header,
-footer,
-main {
-  /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
-}
-
-#div-1,
-#div-2,
-#div-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.25em;
-  height: auto;
-}
-
-.wrapper span {
-  font-family: 'Lora', sans-serif;
-  font-size: 1.3em;
+header,footer main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-container {
-  /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .flex-items {
-  /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 200px;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1.6em;
+    background-color: #f16059;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ==========================================================================
